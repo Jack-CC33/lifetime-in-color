@@ -20,7 +20,7 @@ First, export the lifetime data of interest (for the Flipper-TR example, τ₂ i
 
 ![Screenshot of B&H SPCImage Export Window](https://github.com/Jack-CC33/lifetime-in-color/blob/main/1.%20FLIM%20Image%20Generator/SPCImage_Export_Screenshot.png)
 
-Using the ipython notebook file in folder 1, a colormap and bounds can be simply specified to encode the lifetime information.  I suggest using isoluminant colormaps when possible[^2], which lets intensity-encoding lightness remain close to an orthogonal change.  Below are a few examples of the code's use, where a helper function generates a histogram that aids the decision for upper and lower bounds for color-coding the lifetime.
+Using the ipython notebook file in folder 1, the colormap of choice and lifetime bounds can be simply specified.  This information is used to encode the lifetime computed for each pixel into a color, leaving the lightness to represent fluorescence intensity.  I suggest using isoluminant colormaps when possible[^2], which lets intensity-encoding lightness remain close to an orthogonal change.  Below are a few examples of the code's use, where a helper function generates a histogram that aids the decision for upper and lower bounds for color-coding the lifetime.
 
 ![Example Use of FLIM Image Generator](https://github.com/Jack-CC33/lifetime-in-color/blob/main/1.%20FLIM%20Image%20Generator/Example_Result.png).
 
